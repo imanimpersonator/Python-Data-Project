@@ -3,6 +3,9 @@ import time
 import urllib
 import zlib
 
+# very first file. Retrieves emails from a server, and sorts them by sender
+
+
 howmany = int(input("How many to dump? "))
 
 conn = sqlite3.connect('index.sqlite')
