@@ -3,6 +3,9 @@ import time
 import urllib
 import zlib
 
+
+# Grabs the top words and formats them for line graoh
+
 conn = sqlite3.connect('index.sqlite')
 conn.text_factory = str
 cur = conn.cursor()
