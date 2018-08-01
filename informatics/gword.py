@@ -5,6 +5,9 @@ import zlib
 import string
 import re
 
+
+# sorts stop words out, and writes them to a JavaScript (word.js) file
+
 conn = sqlite3.connect('index.sqlite')
 conn.text_factory = str
 cur = conn.cursor()
