@@ -5,6 +5,8 @@ import zlib
 import string
 import re
 
+# selects words and formats them into JavaScript bubble chart
+
 conn = sqlite3.connect('index.sqlite')
 conn.text_factory = str
 cur = conn.cursor()
